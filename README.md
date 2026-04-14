@@ -4,7 +4,7 @@
 
 Release download link: https://github.com/tetherto/tether-wallet-app-releases/releases
 
-Or you can download Tether Wallet Apk from [Keet APK](https://holepunchto.github.io/invite/#yfo6nemwt5oik3k3hnadrzbdz4txwdghpdt3zrhrd1wycynkn88keu6anj77ohjd8w3hfdmsbw8pe5mazk5by7tq89s6fz5ihyj47wzic9z55utdbp5ae7d6aj4qmsqph1zdza99gqjr945eamjsrxxfkmuzkye) group.
+Or you can download Tether Wallet APK from [Tether Wallet Release](https://holepunchto.github.io/invite/#nfo9ezhsytu7y6fkrxktc88me8du9coa1z8m3o9rcyuj73jwfmimg6xomop3jok4c9ex79t8qd19grhm6oh1wnms9p79ch943fwpienbwg5tgxpned1e3g6fzs53oi5xpgooy34ccpezt3x8m9azepsxxux3hyed14rq5gt9zs6kc8ywa4d7njzertrhr) group.
 
 You can download the latest official Tether Wallet Android `apk` here.
 For Play Store/App Store versions and the usage instructions, please visit https://wallet.tether.io/
