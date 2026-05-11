@@ -1,3 +1,7 @@
+## 1.1.1
+
+- Fixing bugs
+
 ## 1.1.0
 
 - Fixing bugs
