@@ -10,7 +10,8 @@
 
 - Better small-screen support
 - Multiple UI and stability improvements throughout the app
-- Upgraded core platform dependencies and infrastructure to continue improving performance, reliability, and development velocity.
+- Upgraded core platform dependencies and infrastructure to continue improving performance, reliability, and development velocity
+- Added optional opt-in marketing analytics to help us improve the app and measure the effectiveness of our marketing efforts
 
 ### Fixes
 
