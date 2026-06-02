@@ -1,3 +1,24 @@
+## 1.3.0
+
+### Features
+
+- Tron network (beta): Send and receive USDt on the Tron network at one of the most competive fees for Tron
+- Ongoing transactions banner: A new home screen banner keeps in-progress transactions visible at a glance.
+- Full Spanish experience: Spanish-language users now have a fully localized journey through the app.
+
+### Improvements
+
+- Revamped Receive flow: Completely  fresh new look for the receive flow and tether.me as the default address option.
+- Backup reminders: New prompts guide users to make conscious backup decisions on their wallet
+- Easier copying: Larger tap targets on transaction details and a satisfying checkmark animation when copying a transaction ID.
+- Responsive text & layout: Dynamic font scaling and improved UI alignment across all screen sizes.
+
+### Fixes
+
+- Fixed date localization, including the iOS date picker respecting the active app language
+- Various translation fixes across toasts, transaction statuses, and the privacy statement
+- Fixed countdown timers being clipped on smaller screens
+
 ## 1.2.0
 
 ### Features
