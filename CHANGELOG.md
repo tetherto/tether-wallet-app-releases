@@ -1,3 +1,11 @@
+## 1.5.0
+
+### :flag-ch: Swiss Franc Support
+ • Added support for Swiss Franc (CHF) as a preferred reference currency.
+
+### :closed_lock_with_key: Improved Permissions Experience
+ • Enhanced Face ID and tracking permission prompts to provide a smoother and clearer onboarding experience.
+ 
 ## 1.4.0
 
 ### :zap: Lightning Payments
