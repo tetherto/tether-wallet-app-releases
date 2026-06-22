@@ -1,6 +1,6 @@
 ## 1.5.0
 
-### :flag-ch: Swiss Franc Support
+### 🇨🇭 Swiss Franc Support
  • Added support for Swiss Franc (CHF) as a preferred reference currency.
 
 ### :closed_lock_with_key: Improved Permissions Experience
