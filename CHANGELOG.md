@@ -1,42 +1,64 @@
+## 1.6.0
+
+### :calling: Easier Payments
+- Receive assets using EIP-681 payment links, including support for USDT, XAUT and USAT.
+- Added a convenient Paste button when entering a recipient address.
+- Receive optional in-app notifications when a new version of the app is available.
+
+### :sparkles: Improved Experience
+- Added a Back option when selecting a network in Send flow.
+- Updated terminology throughout the app for greater clarity.
+- Improved offline behavior during the send flow.
+- Better support for smaller screen sizes.
+
+### :bug: Fixes
+- Fixed various UI issues, including keyboard overlap, text truncation, and visual rendering.
+- Improved Face ID, marketing consent, and App Tracking Transparency handling on iOS.
+- Fixed the fee warning accuracy during transactions.
+- Resolved an issue that could incorrectly restart onboarding
+
+### :zap: General Improvements
+- Performance, stability, and reliability enhancements across the app.
+
 ## 1.5.0
 
 ### 🇨🇭 Swiss Franc Support
- • Added support for Swiss Franc (CHF) as a preferred reference currency.
+- Added support for Swiss Franc (CHF) as a preferred reference currency.
 
 ### :closed_lock_with_key: Improved Permissions Experience
- • Enhanced Face ID and tracking permission prompts to provide a smoother and clearer onboarding experience.
+- Enhanced Face ID and tracking permission prompts to provide a smoother and clearer onboarding experience.
  
 ## 1.4.0
 
 ### :zap: Lightning Payments
-• Send and receive Bitcoin using Lightning Network BOLT11 invoices and LNURL
-• Create Lightning invoices with a specific requested amount
+- Send and receive Bitcoin using Lightning Network BOLT11 invoices and LNURL
+- Create Lightning invoices with a specific requested amount
 
 ### :money_with_wings: Better Transactions
-• More accurate fee estimation before sending
-• Improved transaction history and fee visibility
-• Better handling of transactions affected by fee changes
+- More accurate fee estimation before sending
+- Improved transaction history and fee visibility
+- Better handling of transactions affected by fee changes
 
 ### :lock: Improved Safety
-• Warnings when sending funds to your own address, username, or UMA
+- Warnings when sending funds to your own address, username, or UMA
 
 ### :sparkles: Experience Improvements
-• Haptic feedback added throughout the app
-• Faster and more consistent loading experience
-• Improved onboarding, settings, and overall app responsiveness
-• Clearer error messages and improved accessibility support
+- Haptic feedback added throughout the app
+- Faster and more consistent loading experience
+- Improved onboarding, settings, and overall app responsiveness
+- Clearer error messages and improved accessibility support
 
 ### :earth_africa: Localization
-• Localized onboarding and login emails
-• Improved language and localization handling
+- Localized onboarding and login emails
+- Improved language and localization handling
 
 ### :bug: Fixes
-• Fixed backup status inconsistencies
-• Fixed transaction history display issues
-• Fixed Lightning invoice display issues
-• Fixed offline send handling
-• Fixed large text and accessibility-related layout issues
-• Various stability, performance, and UI improvements
+- Fixed backup status inconsistencies
+- Fixed transaction history display issues
+- Fixed Lightning invoice display issues
+- Fixed offline send handling
+- Fixed large text and accessibility-related layout issues
+- Various stability, performance, and UI improvements
 
 ## 1.3.0
 
