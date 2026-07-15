@@ -1,3 +1,27 @@
+
+## 1.7.0
+
+### Features
+
+- Contacts: save and manage your addresses in a new address book
+- New Portfolio screen with an animated breakdown of your holdings
+- Choose BTC or Sats as your base unit in Currency & Units settings
+- Recent contacts now appear directly in the send flow
+- Transaction history now shows time alongside date
+- Privacy Policy updates are now easier to review in-app
+
+### Improvements
+
+- Consistent app version display across all menus
+- Updated translations and expanded language support
+
+### Bug Fixes
+
+- Fixed an issue where Android biometric lock could become unresponsive
+- Added an error message when a QR code fails to scan
+- Fixed the "amount too small" warning not displaying correctly
+- Fixed currency icons not loading properly
+ 
 ## 1.6.0
 
 ### :calling: Easier Payments
