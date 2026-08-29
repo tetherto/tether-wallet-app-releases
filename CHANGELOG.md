@@ -1,3 +1,15 @@
+## 1.8.1
+
+### Feature
+
+- Contacts: see your most recent transaction with a contact directly in their profile.
+
+### Improvements
+
+- Send: skips the currency and network steps when the recipient's address already determines them.
+- Send: amounts now default to crypto for BOLT11 and EIP-681 invoices.
+- Contacts: cleaner add and edit contact screens, with automatic capitalization of address names.
+- Underlying platform updates for a more stable app.
 
 ## 1.7.0
 
