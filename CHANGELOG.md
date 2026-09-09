@@ -1,3 +1,24 @@
+## 1.9.0
+
+### Feature
+
+- Revamped Send/Receive flow with animated bottom sheets
+- New global "Getting Started" onboarding component
+
+### Improvements
+
+- Transaction safety: pre-submission fee-fluctuation warnings, direct fee estimation, real-time error observability
+- Screenshot protection on sensitive screens; disabled iOS autocorrect on sensitive data entry
+- Improved localization/formatting
+- Faster Buy checkout (cache handling, background polling, more stable balance architecture)
+- Nav bar / bottom sheet UI refinements
+
+### Fixes
+
+- Ensure the fee amount warning displays accurately during transactions
+- Correct the display of wallet aliases
+- Contacts search screen behaves appropriately when there are no matches
+
 ## 1.8.2
 
 ### Fixes
@@ -33,7 +54,7 @@
 - Consistent app version display across all menus
 - Updated translations and expanded language support
 
-### Bug Fixes
+### Fixes
 
 - Fixed an issue where Android biometric lock could become unresponsive
 - Added an error message when a QR code fails to scan
