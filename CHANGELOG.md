@@ -1,3 +1,34 @@
+## 1.10.0
+
+### Feature
+
+- Pay for SPAC Mart (Swiss) over Lightning and EVM networks
+- Notification settings
+- Safer recovery phrase copy with automatic clipboard expiry 
+
+### Improvements
+
+- Fee transparency: clearer fee descriptions, split included/additional fees, more accurate network fee data, automatic retry on transient fee errors
+- Offline warnings with network-dependent actions disabled
+- More reliable balance/transaction sync and pending transaction display
+- Animated transitions and shared component consistency across Buy, Send, Receive
+- Localization and language-switching reliability; improved text wrapping for long titles
+- Autocorrect and autocomplete disabled on iOS recovery phrase entry
+- Improved transaction error tracking and production analytics
+
+### Fixes
+
+- Max Spendable double-reserving the network fee and miscalculating available funds
+- Duplicate transactions on Buy retry; duplicate pending Buy entries with missing payment details
+- Google Pay and MoonPay purchases appearing as received transactions
+- Receive: wrong payment address after switching token, wrong amount in provider selection, screen breaking on rapid taps
+- Send: crash on QR codes with very large amounts, stale receipts, missing insufficient-funds-for-fees error, fee info hidden behind the keypad
+- Buy providers not refreshing after VPN or location changes
+- Balance/transaction amount discrepancies, fees shown in the wrong currency, app state sync when switching users
+- Decimal precision in English amount formatting, provider lists screens
+- Layout fixes: iPhone 17 Pro Max, iPhone 17e, bottom sheet spacing, transaction date wrapping, Spanish "Tether" font rendering
+
+
 ## 1.9.0
 
 ### Feature
