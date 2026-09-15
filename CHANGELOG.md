@@ -2,7 +2,7 @@
 
 ### Feature
 
-- Pay for SPAC Mart (Swiss) over Lightning and EVM networks
+- Pay for SPAR Mart (Swiss) over Lightning and EVM networks
 - Notification settings
 - Safer recovery phrase copy with automatic clipboard expiry 
 
