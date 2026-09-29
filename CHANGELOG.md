@@ -1,3 +1,41 @@
+## 1.11.0
+
+### Feature
+
+- Allow 3rd-party integrations to trigger Send via tether.me handles
+
+### Improvements
+
+- Localized "Today" and "Yesterday" headers in transaction history
+- Display full handle instead of just username in Settings
+- Animations for the Getting Started component and Outgoing Transaction banner
+- Shortened receive-method labels in the Send bottom sheet
+- Normalized fiat formatting: trims trailing zeros, shows up to 2 decimal places
+- Added a Buy/Sell selector before the token wizard
+- Consistent app-lock enforcement (moved to root layout)
+- Blocked unauthorized incoming deep link navigation
+- Updated translations
+
+### Fixes
+
+- Preserved keypad input mode on preemptive fee bumps
+- Open CryptoPay insufficient-balance warning now covers all rails, not just BTC Spark
+- Keypad now scales dynamically so Continue always clears the system bar
+- Fixed Max Spendable on Bitcoin so tapping Max reaches the real wallet ceiling
+- Bounded network fee quote requests to stop infinite loading on the amount screen
+- Numeric keypad no longer slides down after the Send screen paints
+- Bitcoin Max now quotes the real sweep fee instead of a nominal 500 sats when unfundable
+- Fixed WebView rendering issues during Buy checkout
+- Google Pay checkout now opens in Chrome and follows the provider's payment method
+- Fixed incomplete Google Pay transactions stuck "In Progress"
+- Centered the Balance bar vertically per design
+- Fixed the backup bottom sheet appearing on every app launch
+- Fixed animation desync causing a missing QR code and gap on Receive
+- Fixed low z-index on bottom sheets
+- Fixed random crash during background-to-foreground transitions
+- Added missing navigation chevrons to currency and network rows
+
+
 ## 1.10.0
 
 ### Feature
