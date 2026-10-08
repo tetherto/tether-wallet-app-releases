@@ -1,3 +1,30 @@
+## 1.12.0
+
+### Feature
+
+- Portuguese and Turkish localization
+- Quick Send/Receive actions from Portfolio
+- Pay Spar Market QR codes with Bitcoin over Spark
+- 3rd-party triggered Sends
+- Convert USDt across chains for selected countries
+
+### Improvements
+
+- Android stability: reduced ANR risk on low-memory devices
+- Route restrictions: Open CryptoPay in-store payments can no longer select TRON;
+- Improved balance-based suggestions in Send
+- Home: consolidated loader for Buy actions; orchestrator sheets no longer collide with primary navigation flows
+- Cards no longer expanded by default; banner animation disabled when cards are closed
+- Capped maximum font size on layout-sensitive screens
+- Clearer error copy for minimum output amounts in Convert transaction details
+- Removed the center marker from receive QR codes; updated credit card icon
+- Logout button shown only when social login is enabled
+
+### Fixes
+
+- Fixed the virtual keyboard overlapping the insufficient-funds bottom sheet
+- Fixed excess trailing zeros on token and fiat amounts caused by rounding carry
+
 ## 1.11.0
 
 ### Feature
