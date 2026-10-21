@@ -1,3 +1,30 @@
+## 1.13.0
+
+### Feature
+
+- QR code scanning for address-only QR codes
+
+### Improvements
+
+- Button press feedback
+- Spark amounts now note that Lightning routing fees are included
+- Redesigned high-fee info bottom sheet with clearer copy; new low-fee info bottom sheet for Convert
+- Updated Convert processing UX
+- Contacts: name field auto-focused when creating a contact; loading overlay while recent transactions load
+- Destructive buttons updated to match the design system; updated credit card icons
+- Analytics tracking now starts immediately once enabled in Privacy settings
+- Localization: added missing translations (incl. provider row badge label), consistent formatting of suggested amounts, updated translations
+
+### Fixes
+
+- App language now syncs when returning to foreground after a device language change
+- Fixed numbers losing their last digit on Android
+- Digit grouping for Portuguese and Turkish now starts at 5 digits
+- Dates in provider support emails now use the app language
+- Fixed bottom sheets closing unexpectedly when the soft keyboard opens
+- Fixed Convert validations; unsupported networks now handled gracefully
+- Layout and styling fixes: holding card alignment, Send picker close button, themed status icons, banner shadows, verification sheet
+
 ## 1.12.0
 
 ### Feature
