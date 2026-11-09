@@ -1,3 +1,31 @@
+## 1.15.0
+
+### New Features
+
+- Support USDT on Solana
+- Android: 32-bit architecture support
+
+### Improvements
+
+- Convert: dynamic Max support; payout transaction ID now shown in Convert details once a conversion completes
+- Convert: updated minimum amount copy and a clear message when a network fee is rejected as too low
+- Unified buttons (now with loading states) and loaders across the app; updated verification code (OTP) screen
+- Transaction history now refreshes from the first page instead of reloading all loaded pages
+- Buy and address sheet actions are now disabled while offline
+- Home: ongoing transaction banner now appears above the offline banner; updated spacing between the action bar and offline banner
+- Improved Portfolio balance donut animation timing on slower Android devices
+- Localization: currency names in the Buy currency dropdown are now translated; updated translations
+- Upgraded platform libraries
+
+### Fixes
+
+- Convert: paymaster pre-check now only accounts for the source-chain gas charged on top
+- Convert: Max now re-quotes on every tap instead of replaying cached quotes, and the Max spendable amount stays in sync with the source token amount
+- Conversions with an unconfirmed submit now show as “in progress” in history and the ongoing banner
+- A dropped submit response (eth_sendUserOperation) is now treated as an unknown outcome instead of a failure
+- Step panels in animated step bottom sheets now stay mounted when transitions end
+
+
 ## 1.13.0
 
 ### Feature
