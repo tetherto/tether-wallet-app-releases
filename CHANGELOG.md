@@ -1,3 +1,31 @@
+## 1.16.0
+
+### Features
+
+- Inbox - receive updates and information in the app
+- Convert: convert between Solana and EVM networks
+
+### Improvements
+
+- Convert: simpler source picker that skips the single-asset step, shows one row per network, and tags the selected and last-used networks
+- Convert: currency balances in the picker now only include networks you can select
+- Convert: when no provider accepts an amount, the minimum amount is now named, with an estimated minimum shown as a fallback; updated minimum amount copy
+- Solana: addresses are now re-checked and fees refetched right before sending
+- Localization: network names in unnamed contact address labels and the minute unit in Convert arrival times are now translated
+- Transaction history: detection of the first incoming transaction no longer refetches on every history update
+
+### Fixes
+
+- Convert: conversions are now marked as Failed when the network fee is rejected as below the minimum
+- Convert: Max spendable amount now stays in sync with the source token amount; Continue button and price countdown stay visible on short screens
+- Solana: USDT and USD amounts in transaction history are now rounded consistently
+- Verification code (OTP) screen: Continue button no longer overlaps the resend text when the keyboard opens; added missing space between text and timer
+- Increased screen zoom: “Request new amount” button and onboarding username field are no longer hidden; backgrounds now redraw at the correct scale
+- Layout and styling fixes: Receive header pill, chips and address row on small screens; hidden balance mask now matches the visible decimal format
+- Android: text underlines now use the font’s own thickness and position (including the OTP resend link); Log Out button in Settings stays clear of the navigation bar
+- iOS: fixed a crash when tapping “Save to Photos” (long-press menu in web views disabled)
+
+
 ## 1.15.0
 
 ### New Features
